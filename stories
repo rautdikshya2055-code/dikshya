@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Inkwell | Immersive Stories</title>
+    <style>
+        :root {
+            --bg-color: #fdfcf8;
+            --text-color: #2c2c2c;
+            --accent-color: #8b4513;
+            --serif-font: 'Georgia', serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--serif-font);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .story-card {
+            margin-bottom: 4rem;
+        }
+
+        .story-card h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .meta {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .excerpt {
+            font-size: 1.1rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Inkwell</h1>
+        <p>Short tales for long nights.</p>
+        <nav>
+            <a href="#">Latest</a>
+            <a href="#">Genres</a>
+            <a href="#">About</a>
+            <a href="#">Submit</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="story-card">
+            <div class="meta">March 18, 2026 • 5 min read • Fantasy</div>
+            <h2>The Clockmaker’s Silence</h2>
+            <p class="excerpt">
+                In the heart of Prague, there lived a man who didn't fix clocks to keep time, but to trap it. The townspeople noticed that while the rest of the world aged, the street of the Clockmaker remained in a perpetual golden autumn...
+            </p>
+            <a href="story-detail.html" class="read-more">Continue Reading →</a>
+        </article>
+
+        <article class="story-card">
+            <div class="meta">March 15, 2026 • 8 min read • Sci-Fi</div>
+            <h2>Signals from the Static</h2>
+            <p class="excerpt">
+                The radio didn't just play white noise. If you listened closely enough between the frequencies of 102.1 and 102.2, you could hear the distinct sound of waves crashing on a shore that no longer existed on any map...
+            </p>
+            <a href="#" class="read-more">Continue Reading →</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Inkwell Storytelling Project. Built for dreamers.</p>
+    </footer>
+
+</body>
+</html>
